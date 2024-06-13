@@ -1,0 +1,49 @@
+/* perfil.css */
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenido de compras */
+#compras-contenido {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Estilos para cada actividad de compra */
+.actividad {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilos para la imagen */
+.actividad img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la información de la actividad */
+.actividad-info {
+    margin-top: 10px;
+}
+
+/* Estilos para el precio */
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+/* Estilos para la cantidad */
+.cantidad {
+    color: blue;
+}

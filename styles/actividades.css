@@ -1,0 +1,61 @@
+.slider-activities-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-width: 1200px; /* Ajusta según sea necesario */
+    margin: auto;
+    margin-top: 11%;
+}
+
+.slider-wrapper {
+    position: relative;
+  }
+
+.slider-activities {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    padding:3rem 6%;
+    
+}
+
+.box {
+    min-width: 33.33%; /* Mostrar 3 boxes a la vez */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.box .image img {
+    width: 100%;
+    height: auto;
+}
+
+.box .content {
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 100px;
+    
+}
+
+.next {
+    right: 100px;
+     
+}
+
+

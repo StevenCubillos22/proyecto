@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#carrito-contenido {
+    margin-bottom: 20px;
+}
+
+.actividad {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.actividad img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.actividad .content {
+    display: flex;
+    flex-direction: column;
+}
+
+#resumen-compra {
+    font-size: 18px;
+    text-align: right;
+}
+
+#resumen-compra p {
+    margin: 5px 0;
+}
+
+.price, .cantidad {
+    margin-top: 10px;
+}

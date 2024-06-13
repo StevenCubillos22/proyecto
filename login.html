@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro e Inicio de Sesión</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- <script defer src="js/axios2.js"></script> -->
+  <script defer src="js/script.js"></script>
+</head>
+ <body>
+    <h1>Registro</h1>
+    <form id="registerForm">
+      <input type="text" id="name" placeholder="Nombre" autocomplete="name" required>
+      <input type="email" id="email" placeholder="Correo Electrónico" autocomplete="email" required>
+      <input type="password" id="password" placeholder="Contraseña" autocomplete="new-password" required>
+      <button type="submit">Registrar</button>
+    </form>
+  
+    <h1>Iniciar Sesión</h1>
+    <form id="loginForm">
+      <input type="email" id="loginEmail" placeholder="Correo Electrónico" autocomplete="email" required>
+      <input type="password" id="loginPassword" placeholder="Contraseña" autocomplete="current-password" required>
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+  
+    <div id="errorContainer"></div>
+  </body>
+  </html>

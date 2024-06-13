@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoten - Actividades</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    
+    <link rel="stylesheet" href="styles/style.scss">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/actividades.css">
+
+    <script src="js/actividades.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+    
+</head>
+<body>
+    
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo"><img src="imgs/yOTENLOGO.png" alt="Logotipo" width="100px" height="110px" /></a>
+    
+        <nav class="navbar">
+            <a href="#Inicio">Inicio</a>
+            <a href="#about">Sobre nosotros</a>
+            <a href="#destination">Actividades</a>
+            <a href="#services">Servicios</a>
+            <a href="#gallery">Galeria</a>
+        </nav>
+    
+        <a href="login.html"  id="btnOpenModal" class="btn show-modal">Login</a>
+    
+        <div class="two columns u-pull-right">
+            <ul>
+              <li class="submenu">
+                <img src="imgs/cart.png" id="img-carrito" />
+                <div id="carrito">
+                  <table id="lista-carrito" class="u-full-width">
+                    <thead>
+                      <tr>
+                        <!-- <th>Imagen</th> -->
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+    
+    
+                  <a href="#" id="vaciar-carrito" class="button u-full-width"
+                    >Vaciar Carrito</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+    
+    </header>
+
+    <div class="slider-wrapper" id="slider-1">
+        <button id="prev">&#10094;</button>
+        <div class="slider-activities-container">
+            <div class="heading">
+                <span>LOS MÁS VENDIDOS</span>
+            </div>
+            
+                
+            <div class="slider-activities">
+                <div class="box">
+                    <div class="image">
+                        <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-1">
+                    </div>
+                    <div class="content">
+                        <h3>Observacion astronomica</h3>
+                        <p>lore ipsum niownceiobnwicjebiwebc</p>
+                        <a href="#">Más info<i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <div class="image">
+                        <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-2">
+                    </div>
+                    <div class="content">
+                        <h3>Yukata y fuegos artificiales</h3>
+                        <p>lore ipsum niownceiobnwicjebiwebc</p>
+                        <a href="#" class="agregar-carrito" data-id="1">Más info<i class="fas fa-angle-right" ></i></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <div class="image">
+                        <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-3">
+                    </div>
+                    <div class="content">
+                        <h3>Fotografía nocturna</h3>
+                        <p>lore ipsum niownceiobnwicjebiwebc</p>
+                        <a href="#" class="agregar-carrito" data-id="2">Más info<i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="image">
+                        <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-4">
+                    </div>
+                    <div class="content">
+                        <h3>Observacion astronomica</h3>
+                        <p>lore ipsum niownceiobnwicjebiwebc</p>
+                        <a href="#" class="agregar-carrito" data-id="3">Más info<i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <div class="image">
+                        <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-5">
+                    </div>
+                    <div class="content">
+                        <h3>Diversion con banderas</h3>
+                        <p>lore ipsum niownceiobnwicjebiwebc</p>
+                        <a href="#" class="agregar-carrito" data-id="3">Más info<i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <div class="image">
+                        <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-6">
+                    </div>
+                    <div class="content">
+                        <h3>Destino cercano</h3>
+                        <p>lore ipsum niownceiobnwicjebiwebc</p>
+                        <a href="#" class="agregar-carrito" data-id="3">Más info<i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+    
+        </div>
+        <button id="next">&#10095;</button>
+    </div>
+    
+
+    
+    <br>
+
+    <section class="destination" id="destination">
+        <div class="box-container">
+
+        </div>
+    </section>
+
+    
+    <br>
+
+
+    <div class="slider-wrapper" id="slider-2">
+        <button id="prev">&#10094;</button>
+        <div class="slider-activities-container">
+            <div class="heading">
+                <span>LOS MÁS NOCTURNOS</span>
+            </div>
+            <br>
+            
+                <div class="slider-activities">
+                    <div class="box">
+                        <div class="image">
+                            <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-slider-1">
+                        </div>
+                        <div class="content">
+                            <h3>Observacion astronomica</h3>
+                            <p>lore ipsum niownceiobnwicjebiwebc</p>
+                            <a href="#">Más info<i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+            
+                    <div class="box">
+                        <div class="image">
+                            <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-slider-2">
+                        </div>
+                        <div class="content">
+                            <h3>Yukata y fuegos artificiales</h3>
+                            <p>lore ipsum niownceiobnwicjebiwebc</p>
+                            <a href="#" class="agregar-carrito" data-id="1">Más info<i class="fas fa-angle-right" ></i></a>
+                        </div>
+                    </div>
+            
+                    <div class="box">
+                        <div class="image">
+                            <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-slider-3">
+                        </div>
+                        <div class="content">
+                            <h3>Fotografía nocturna</h3>
+                            <p>lore ipsum niownceiobnwicjebiwebc</p>
+                            <a href="#" class="agregar-carrito" data-id="2">Más info<i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="image">
+                            <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-slider-4">
+                        </div>
+                        <div class="content">
+                            <h3>Observacion astronomica</h3>
+                            <p>lore ipsum niownceiobnwicjebiwebc</p>
+                            <a href="#" class="agregar-carrito" data-id="3">Más info<i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+            
+                    <div class="box">
+                        <div class="image">
+                            <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-slider-5">
+                        </div>
+                        <div class="content">
+                            <h3>Diversion con banderas</h3>
+                            <p>lore ipsum niownceiobnwicjebiwebc</p>
+                            <a href="#" class="agregar-carrito" data-id="3">Más info<i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+            
+                    <div class="box">
+                        <div class="image">
+                            <img src="/imgs/osaka-night-s786283990.jpg" alt="img-actividad-slider-6">
+                        </div>
+                        <div class="content">
+                            <h3>Destino cercano</h3>
+                            <p>lore ipsum niownceiobnwicjebiwebc</p>
+                            <a href="#" class="agregar-carrito" data-id="3">Más info<i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+        </div>
+        <button id="next">&#10095;</button>
+    </div>
+
+
+    
+</body>
+</html>

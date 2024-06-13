@@ -1,0 +1,102 @@
+[
+    {
+        "src": "./imgs/Achi.png",
+        "titulo": "Observación astronómica en Achi",
+        "precio": "30",
+        "id": "1",
+        "equipo": {
+            "img": "./imgs/",
+            "nombre": "Telescopio KS52",
+            "descripción": "Con un buen telescopio irás hasta las estrellas"
+        }
+    },
+    {
+        "src": "imgs/curso1.jpg",
+        "titulo": "Fotografía nocturna en Shibuya, Tokyo",
+        "precio": "41",
+        "id": "2",
+        "equipo": {
+            "img": "./imgs/",
+            "nombre": "Camara Reflex Nikon",
+            "descripción": "Captura momentos de calidad en la noche"
+        }
+    },
+    {
+        "src": "imgs/curso1.jpg",
+        "titulo": "Visita al templo Senso-ji",
+        "precio": "22",
+        "id": "3",
+        "equipo": {
+            "img": "./imgs/",
+            "nombre": "Yukata",
+            "descripción": "Sumérjete al templo con el vestuario"
+        }
+    },
+    {
+        "src": "imgs/curso1.jpg",
+        "titulo": "Celebración del Hanami",
+        "precio": "17",
+        "id": "4",
+        "equipo": {
+            "img": "./imgs/",
+            "nombre": "Juego de picnic",
+            "descripción": "Un buen picnic es la base para deslumbrar cerezos"
+        }
+    },
+    {
+        "src": "imgs/curso1.jpg",
+        "titulo": "Acampada en Kamikochi",
+        "precio": "31",
+        "id": "5",
+        "equipo": {
+            "img": "./imgs/",
+            "nombre": "Juego de acampada",
+            "descripción": "Un camping es la mejor nave espacial "
+        }
+    },
+    {
+        "src": "img/curso1.jpg",
+        "titulo": "Concierto J-Rock en bar",
+        "precio": "18",
+        "id": "6",
+        "equipo": {
+            "img": "./imgs/",
+            "nombre": "Guitarra",
+            "descripción": "Deslumbra las estrella con los solos de guitarra"
+        }
+    },
+    {
+        "src": "img/curso1.jpg",
+        "titulo": "Visita a observatorio astronómico",
+        "precio": "15",
+        "id": "7",
+        "equipo": {
+            "img": "./imgs/",
+            "nombre": "Telescopio S235",
+            "descripción": "Perfecto"
+        }
+    },
+    {
+        "src": "img/curso1.jpg",
+        "titulo": "Recorrido por Kyoto",
+        "precio": "21",
+        "id": "8",
+        "equipo": {
+            "img": "./imgs/",
+            "nombre": "Traje de Samurai",
+            "descripción": "Se un Ronin nocturno"
+        }
+    },
+    {
+        "src": "img/curso1.jpg",
+        "titulo": "Visita obra de teatro Nô",
+        "precio": "13",
+        "id": "9",
+        "equipo": {
+            "img": "./imgs/",
+            "nombre": "Guia",
+            "descripción": "Se parte del espectáculo"
+        }
+    }
+
+]
